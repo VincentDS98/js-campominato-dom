@@ -47,7 +47,7 @@ playButton.addEventListener('click', function(){
                     if (bombs.includes(numberInCell)== false){
                         this.classList.add('click');
                         if(document.querySelector('.cell.click').length == (100 - 16)){
-                            alert('IL TUO PUNTEGGIO = ' + document.querySelectorAll(.cell.click).length);
+                            alert('IL TUO PUNTEGGIO = ' + document.querySelectorAll('.cell.click').length);
                         }
                     }
                     else {
